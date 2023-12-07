@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 # Desafío de Codificación - Trivia Challenge
 
 ## Descripción
-Este proyecto es una implementación de un Trivia Challenge con 12 preguntas de opción verdadero/falso. Fue desarrollado como parte de un desafío de codificación para [nombre de la empresa].
+Este proyecto es una implementación de un Trivia Challenge con 10 preguntas de opción verdadero/falso. Fue desarrollado como parte de un desafío de codificación para Geniality.
 
 ## Instalación
 Siga estos pasos para ejecutar la aplicación en su entorno local:
