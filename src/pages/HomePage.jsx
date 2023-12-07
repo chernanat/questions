@@ -13,6 +13,7 @@ const HomePage = () => {
   const [finalresult, setFinalResult] = useState(false);
   const [logselected, setLogSelected] = useState([]);
 
+// Manejo del estado para iniciar el desafío
   const handleStart = () => {
     setStart(true);
     console.log("empezando desafio");
@@ -24,6 +25,7 @@ const HomePage = () => {
     setCurrentQuestion(currentquestion + 1);
   };
 
+// Función para manejar la selección de respuestas
   const handleSelected = (selected) => {
     setAnswerSelected(selected);
     setLogSelected((prevLog) => [...prevLog, selected]);
@@ -36,6 +38,8 @@ const HomePage = () => {
     setFinalResult(true);
   };
 
+
+  //consumo del API
   useEffect(() => {
     const fetchData = async () => {
       try {
